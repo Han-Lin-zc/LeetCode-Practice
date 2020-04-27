@@ -1,4 +1,4 @@
-package algorithms;
+package algorithms.array;
 
 import java.util.HashMap;
 
@@ -18,7 +18,7 @@ return [0, 1]
 */
 
 
-class Solution {
+public class TwoSum {
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
         
