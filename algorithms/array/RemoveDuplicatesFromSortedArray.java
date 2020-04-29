@@ -9,7 +9,7 @@ Given input array A = [1,1,2],
 Your function should return length = 2, and A is now [1,2].
 */
 
-class Solution {
+public class RemoveDuplicatesFromSortedArray {
     public int removeDuplicates(int[] nums) {
         int i = 0; 
         for (int k = 1; k < nums.length; k++) {
